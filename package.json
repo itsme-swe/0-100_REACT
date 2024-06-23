@@ -4,6 +4,8 @@
   "description": "Complete React series",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harsh Mehra",

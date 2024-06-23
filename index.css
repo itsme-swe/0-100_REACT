@@ -1,19 +1,9 @@
-#child1
+#body
 {
-    color: red;
+    background-color: #A0937D;
 }
 
-#child2
+#heading
 {
-    color: blue;
-}
-
-#c1
-{
-    color: green;
-}
-
-#c2
-{
-    color: brown;
+    color: azure;
 }

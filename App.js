@@ -1,30 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement(
-    "div",
-    {id: "parent"},
-    [
-        React.createElement(
-            "div",
-            {id: "child"},
-            [
-                React.createElement("h1", {id: "child1"}, "I am child one in h1 tag!!"),
-                React.createElement("h2", {id: "child2"}, "I am child two in h2 tag!!")
-            ]
-        ),
-
-        React.createElement(
-            "div",
-            {id: "SecondChild"},
-            [
-                React.createElement("h1", {id: "c1"}, "I am grand child one in h1 tag!!"),
-                React.createElement("h2", {id: "c2"}, "I am grand child two in h2 tag!!")
-            ]
-        )
-    ]
+//1️⃣ This is way we create React Element before JSX
+/*const heading = React.createElement(
+    "h2",
+    {id: "head"},
+    "Namaste Developers 👍👍"
 );
+console.log(heading);
+*/
+
+//2️⃣ Creating react element using JSX(Is HTML-like syntax)
+const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> 
+
+console.log(jsxHeading);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(jsxHeading);
