@@ -7,10 +7,10 @@ import ReactDOM from "react-dom/client";
     {id: "head"},
     "Namaste Developers 👍👍"
 );
-console.log(heading);
+
 */
 
-//2️⃣ Creating react element using JSX(Is HTML-like syntax)
+//2️⃣ Creating react element using JSX(Is HTML-like syntax) And JSX is more readable 
 const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> 
 
 console.log(jsxHeading);
