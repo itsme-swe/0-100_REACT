@@ -18,3 +18,9 @@
     🔸 Functional Components -- The newer version of writing code
 
 
+**6️⃣ Functional Component** is an normal javascript function which returns some JSX Element.
+
+    const HeadingComponent = () => {
+        
+        <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
+    } 

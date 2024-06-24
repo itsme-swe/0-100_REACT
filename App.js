@@ -13,7 +13,13 @@ import ReactDOM from "react-dom/client";
 //2️⃣ Creating react element using JSX(Is HTML-like syntax) And JSX is more readable 
 const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> 
 
-console.log(jsxHeading);
+//3️⃣ React Functional Component
+const HeadComponent = () => {
+    <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
+}
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
