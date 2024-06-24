@@ -15,8 +15,12 @@ const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1>
 
 //3️⃣ React Functional Component
 const HeadComponent = () => {
-    <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
+   return <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
 }
+
+const HeadComponent2 = () => (
+    <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
+);
 
 
 
