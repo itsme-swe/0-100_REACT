@@ -10,3 +10,11 @@
 **4️⃣ Bundler** is a tool that compiles and bundles JavaScript code and its dependencies into a single file (or a few files) for efficient delivery to the browser. 
 
  Some most commonly used bundlers in React projects are **Webpack**, **Parcel** and **Vite**. 
+
+**5️⃣** There are 2 types of components in React 
+
+    🔸 Class Bases Component -- The older version of writing code
+    
+    🔸 Functional Components -- The newer version of writing code
+
+
