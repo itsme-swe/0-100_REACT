@@ -14,15 +14,20 @@ import ReactDOM from "react-dom/client";
 const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> */ 
 
 //3️⃣ React Functional Component
+
 const Title = () => (
+    
     <h1 className="title">
         Namaste react 🚀
     </h1>
 );
 
+const name = <h3>I am Harsh Mehra</h3>;     //🔸 React element
+
 const HeadingComponent = () => (
     <div id="container">
         <Title/> 
+        {name}
         <h1 className="subClass">I am Functinal Component2🚀</h1>
     </div>
 );

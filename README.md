@@ -20,10 +20,10 @@
 
 **6️⃣ Functional Component** is an normal javascript function which returns some JSX Element.
 
-    🔸 const HeadingComponent = () => {
+    🔸 const HeadingComponent = () => (
 
             return <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
-    } 
+    );
 
     🔸 const HeadComponent2 = () => (
 
@@ -44,5 +44,16 @@
         <div id="container">
             <Title/> 
             <h1 className="subClass">I am Functinal Component2🚀</h1>
+        </div>
+    );
+
+**8️⃣** We can add **JavaScript** and **reactElement** inside JSX code with the help of **{ }** curly braces in the following way:
+
+    const name = <h3>I am Harsh Mehra</h3>
+
+    const Title = () => (
+        <div id="head">
+            {name}
+        <h1> I am Functional Component </h1>
         </div>
     );
