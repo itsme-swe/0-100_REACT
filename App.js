@@ -10,23 +10,30 @@ import ReactDOM from "react-dom/client";
 
 */
 
-//2️⃣ Creating react element using JSX(Is HTML-like syntax) And JSX is more readable 
-const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> 
+/*2️⃣ Creating react element using JSX(Is HTML-like syntax) And JSX is more readable 
+const jsxHeading = <h1 id="jsxhead">Hello I am JSX ‼️</h1> */ 
 
 //3️⃣ React Functional Component
-const HeadComponent = () => {
-   return <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
-}
-
-const HeadComponent2 = () => (
-    <h1 id="fcomp">Namaste I am Functional Component🚀</h1>
+const Title = () => (
+    <h1 className="title">
+        Namaste react 🚀
+    </h1>
 );
 
-
-
+const HeadingComponent = () => (
+    <div id="container">
+        <Title/> 
+        <h1 className="subClass">I am Functinal Component2🚀</h1>
+    </div>
+);
+    
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxHeading);
+//4️⃣ Rendering React element on browser
+// root.render(jsxHeading);
+
+//5️⃣ Rendering functional component on browser
+root.render(<HeadingComponent/>);
 
