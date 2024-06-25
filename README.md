@@ -29,3 +29,20 @@
 
             <h1 id="fcomp">Namaste I am Functional Component🚀</h1>    
     );
+
+**7️⃣ Component Composition** is passing one component inside another component to render on screen.
+
+    const Title = () => (
+
+        <h1 className="title">
+            Namaste react 🚀
+        </h1>
+    );
+
+    const HeadingComponent = () => (
+
+        <div id="container">
+            <Title/> 
+            <h1 className="subClass">I am Functinal Component2🚀</h1>
+        </div>
+    );
