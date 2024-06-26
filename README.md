@@ -30,6 +30,10 @@
             <h1 id="fcomp">Namaste I am Functional Component🚀</h1>    
     );
 
+    🔸To render functional component on screen we need to use <ComponentName/>.
+
+    root.render(<HeadComponent2/>);
+
 **7️⃣ Component Composition** is passing one component inside another component to render on screen.
 
     const Title = () => (
@@ -42,7 +46,8 @@
     const HeadingComponent = () => (
 
         <div id="container">
-            <Title/> 
+            <Title/>  🔸This is the first way we can call other functional component
+            {Title()} 🔸Or, we can component as function direct inside component 
             <h1 className="subClass">I am Functinal Component2🚀</h1>
         </div>
     );

@@ -25,8 +25,12 @@ const name = <h3>I am Harsh Mehra</h3>;     //🔸 React element
 
 const HeadingComponent = () => (
     <div id="container">
-        <Title/> {/*Adding another component inside another component*/}
+
+        {Title()} {/*Adding another component inside another component*/}
+        <Title/>
+
         {name}  {/*Adding React Element inside component*/}
+        
         <h1 className="subClass">I am Functinal Component2🚀</h1>
     </div>
 );
